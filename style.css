@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(lightcoral, rgb(16, 36, 124));
+}
+.center{
+    width: 350px;
+    background: rgb(0, 0, 0);
+border-radius: 20px;
+}
+input[type="text"]{
+    height: 60px;
+    width: 300px;
+    margin-top: 40px;
+    border-radius: 1px;
+    border: 1px solid rgba(3, 141, 141, 0.897);
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
+    background: linear-gradient(rgb(255, 255, 255), rgb(198, 200, 207));
+}
+form .buttons{
+    width: 300px;
+    margin: 10px 25px 0 25px;
+    padding: 10px 0;
+}
+input[type="button"]{
+    width: 58px;
+    height: 55px;
+    margin: 5px;
+    font-size: 22px;
+    line-height: 55px;
+    border-radius: 3px;
+    border: 1px solid rgba(54, 1, 1, 0.897);
+    background: linear-gradient(rgba(112, 41, 68, 0.897), rgba(255, 255, 255, 0.897));
+}
+input[type="button"]:hover{
+    transition: 0.5s;
+    background: linear-gradient( rgba(255, 255, 255, 0.897), rgba(112, 41, 68, 0.897));
+}
+input#clear{
+    background: rgb(182, 3, 3);
+    border: 1px solid rgba(54, 1, 1, 0.877);
+    color: white;
+}
+input#equal{
+    width: 275px;
+    margin: 10px 0 10px 0;
+    font-size: 30px;
+    color: white;
+    background:  rgb(182, 3, 3);
+    border: 1px solid  rgba(54, 1, 1, 0.877);
+    
+}
